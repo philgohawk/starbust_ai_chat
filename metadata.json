@@ -1,5 +1,0 @@
-{
-  "name": "Bustbank AI Assistant",
-  "description": "Internal AI-powered data assistant for Bustbank, utilizing Starburst to query and analyze banking data securely.",
-  "requestFramePermissions": []
-}

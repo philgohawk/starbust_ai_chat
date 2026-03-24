@@ -222,7 +222,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const prompt = buildPrompt(schemaContext, historyText, message);
 
     const response = await genai.models.generateContent({
-      model: "gemini-2.0-flash",
+      model: "gemini-2.5-flash",
       contents: prompt,
     });
 

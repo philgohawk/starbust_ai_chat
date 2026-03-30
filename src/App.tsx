@@ -100,7 +100,7 @@ export default function App() {
                 {[
                   "Show me all catalogs",
                   "What schemas are in the tpch catalog?",
-                  "List the first 5 rows from tpch.tiny.customer",
+                  "List 25 items from kaggle_tx_data",
                 ].map((q) => (
                   <li key={q}>
                     <button
